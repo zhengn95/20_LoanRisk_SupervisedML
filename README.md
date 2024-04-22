@@ -4,8 +4,8 @@ In this repository, various techniques of Supervised Machine Learning were used 
 ### Introduction: Supervised Machine Learning  
 ### Overview of Analysis 
 **Purpose** A dataset of historical lending activity was used from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers. See the jupyter notebook `credit_risk_classification.ipynb` for the code.  
-**Targets & Features**?? Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+  
+**Targets & Features** The dataset contains several columns of borrower financial and loan information including loan size, interest rate,	income, debt-to-income ratio, 	number of accounts,	derogatory marks,	total debt, and	their loan status. We are predicting the creditworthiness of borrowers by analyzing historical data to see if a borrowers loan status (target) was approved or denied based on the borrowers other loan and financial information (features).
 
 **Methods & Process**
 * Describe the stages of the machine learning process you went through as part of this analysis.  
