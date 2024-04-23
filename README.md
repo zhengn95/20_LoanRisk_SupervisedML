@@ -9,7 +9,7 @@ In this repository, various techniques of Supervised Machine Learning were used 
 
 **Preprocessing:**
 * Step 1: Clean the data (in this case, the dataset was pretty clean to start)
-* Step 2: Assign `loan_status` to y, our target variable.
+* Step 2: Assign `loan_status` to y, our target variable. Assigned all other columns as features to X.
 * Step 3: Split the Data into Training and Testing Sets using `train_test_split` and assign a random state of 1.
    
 **Methods Used:**
