@@ -23,10 +23,9 @@ In this repository, various techniques of Supervised Machine Learning were used 
 * Create and save the testing classification report to see how well the logistic regression model predicts both the 0 (healthy loan) and 1 (high-risk loan). See the results section for the answer based on the Machine Learning Model used.
 
 ### Results  
-
-  * Accuracy: is how often the model is correct—the ratio of correctly predicted observations to the total number of observations. 
-  * Precision: is the ratio of correctly predicted positive observations to the total predicted positive observations. (i.e., of all the samples classified as having diabetes, how many actually have diabetes?). High precision relates to low false-positives
-  * Recall: is the ratio of correctly predicted positive observations to all predicted observations for that class. (i.e., of all of the actual diabetes samples, how many were correctly classified as having diabetes?)
+  * **Accuracy:** is how often the model is correct —-the ratio of correctly predicted observations to the total number of observations. The logistic regression model found had a 0.99 for the test and training dataset. 
+  * **Precision:** is the ratio of correctly predicted positive observations to the total predicted positive observations. (i.e., of all the samples classified as having diabetes, how many actually have diabetes?). High precision relates to low false-positives. The logistic regression model found that healthy loans 
+  * **Recall:** is the ratio of correctly predicted positive observations to all predicted observations for that class. (i.e., of all of the actual diabetes samples, how many were correctly classified as having diabetes?)
 High recall correlates to a more comprehensive output and a low false negative rate.
 
 
