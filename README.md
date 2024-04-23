@@ -23,11 +23,19 @@ In this repository, various techniques of Supervised Machine Learning were used 
 * Create and save the testing classification report to see how well the logistic regression model predicts both the 0 (healthy loan) and 1 (high-risk loan). See the results section for the answer based on the Machine Learning Model used.
 
 ### Results  
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+
+  * Accuracy: is how often the model is correct—the ratio of correctly predicted observations to the total number of observations. 
+  * Precision: is the ratio of correctly predicted positive observations to the total predicted positive observations. (i.e., of all the samples classified as having diabetes, how many actually have diabetes?). High precision relates to low false-positives
+  * Recall: is the ratio of correctly predicted positive observations to all predicted observations for that class. (i.e., of all of the actual diabetes samples, how many were correctly classified as having diabetes?)
+High recall correlates to a more comprehensive output and a low false negative rate.
+
 
 ### Summary  
+Question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+Answer: The model is very good at predicting healthy loans and decently good at predicting high risk loans.
+Looking at the two classification reports for the training and test data, it looks as if model performance declined--albeit very slightly--on the test data. This is to be expected: this is how well the model is performing on data that the model hasn't seen before. If we're still getting strong precision and recall on the test dataset, this is a good indication of how well the model is likely to perform in real life.
+
+
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )  
