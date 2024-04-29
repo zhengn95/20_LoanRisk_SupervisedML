@@ -1,5 +1,10 @@
 # Evaluating Loan Risk using Supervised Machine Learning  
-In this repository, various techniques of Supervised Machine Learning were used to evaluate a model based on loan risk.  
+In this repository, various techniques of Supervised Machine Learning were used to evaluate a model based on loan risk.  In this Loan Risk repo, Python libraries sci-kit learn for ML, pandas, and numpy were used to implement these algorithms, and build and deploying machine learning models.  
+  
+Please follow the links for documentation of the libraries:
+Sci-kit learn
+Pandas
+Numpy
 
 ### Introduction: Supervised Machine Learning  
 ### Overview of Analysis 
