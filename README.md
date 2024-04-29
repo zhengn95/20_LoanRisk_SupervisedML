@@ -24,13 +24,13 @@ In this repository, various techniques of Supervised Machine Learning were used 
 ### Results  
   * **Accuracy:** is how often the model is correct —-the ratio of correctly predicted observations to the total number of observations. The logistic regression model found a 0.99 for the test and training dataset.  
     The overall accuracy of the testing and training model is 0.99, indicating that it correctly predicts loan approval or denial about 99% of the time.  
-  * **Precision:** is the ratio of correctly predicted positive observations to the total predicted positive observations. (i.e., of all the samples classified as having diabetes, how many actually have diabetes?). High precision relates to low false-positives.
+  * **Precision:** is the ratio of correctly predicted positive observations to the total predicted positive observations. (i.e., of all of the actual healthy loans, how many were correctly classified as healthy loans). High precision relates to low false-positives.
     The logistic regression model found that healthy loans had a precision of 1.00 for the testing and training model. This means that when the model predicts a loan will be approved, it is correct 100% of the time.  
     The logistic regression model found that high-risk loans had a precision of 0.86 for healthy loans and 0.85 for high-risk loans. This indicates that when the model predicts a loan will be denied, it is correct 86%% of the time in our training dataset and 85% of the time in our testing dataset.
 
 
          
-  * **Recall:** is the ratio of correctly predicted positive observations to all predicted observations for that class. (i.e., of all of the actual diabetes samples, how many were correctly classified as having diabetes?). High recall correlates to a more comprehensive output and a low false negative rate.
+  * **Recall:** is the ratio of correctly predicted positive observations to all predicted observations for that class. (i.e., of all of the actual healthy loans, how many were correctly classified as healthy loans). High recall correlates to a more comprehensive output and a low false negative rate.
     Training set: The recall for class 0 is 0.99, indicating that the model correctly identifies about 99% of the denied loans. For class 1, the recall is 0.91, meaning that the model correctly identifies about 91% of the approved loans.
     Testing set: A recall of 1.00 for class 0 means that the model correctly identifies all instances of denied loans. For class 1, the recall is 0.90, indicating that the model correctly identifies about 90% of the approved loans.
 
