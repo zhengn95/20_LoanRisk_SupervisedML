@@ -1,13 +1,13 @@
 # Evaluating Loan Risk using Supervised Machine Learning  
-In this repository, various techniques of Supervised Machine Learning were used to evaluate a model based on loan risk.  In this Loan Risk repo, Python libraries sci-kit learn for ML, pandas, and numpy were used to implement these algorithms, and build and deploying machine learning models.  
+In this repository, various techniques of Supervised Machine Learning were used to evaluate a model based on loan risk.  In this Loan Risk repo, Python libraries sci-kit learn for ML, pandas, and numpy were used to implement these algorithms and build and deploy a machine learning model.  
   
-Please follow the links for documentation of the libraries:
-Sci-kit learn
-Pandas
-Numpy
-
-### Introduction: Supervised Machine Learning  
-### Overview of Analysis 
+Please follow the links for documentation of the libraries:  
+* [Sci-kit learn](https://scikit-learn.org/stable/)
+* [Pandas](https://pandas.pydata.org/docs/user_guide/index.html)
+* [Numpy](https://numpy.org/doc/stable/user/)
+  
+![Loan Risk Image](https://github.com/zhengn95/20_LoanRisk_SupervisedML/blob/main/Images/Credit_Loan_Image.png)
+### Overview of Supervised Machine Learning Analysis 
 **Purpose:** A dataset of historical lending activity was used from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers. See the Jupyter notebook `credit_risk_classification.ipynb` for the code.  
   
 **Targets & Features:** The dataset contains several columns of borrower financial and loan information including loan size, interest rate, income, debt-to-income ratio, number of accounts, derogatory marks, total debt, and loan status. We are predicting the creditworthiness of borrowers by analyzing the loan status (target) of past borrowers and seeing of the loan was healthy or at high risk for default based on their other loan and financial information (features).
@@ -38,6 +38,8 @@ The logistic regression model found that high-risk loans had a precision of 0.86
 In the training, we found a recall of 1.00 for class 0, which means that the model correctly identifies all instances of healthy loans. For class 1, the recall is 0.90, indicating that the model correctly identifies about 90% of the loans at high-risk for default. In the testing model, we found that the recall for class 0 is 0.99, indicating that the model correctly identifies about 99% of the healthy loans. For class 1, the recall is 0.91, meaning that the model correctly identifies about 91% of the loans that are high-risk for default.
 
 * **The F1-score:** is the harmonic mean of precision and recall. It gives you the balance between precision and recall. It's useful when you have imbalanced classes (which seems to be the case here). This will not be discussed in our results section, please see the code for more details.
+
+![Classification Report](https://github.com/zhengn95/20_LoanRisk_SupervisedML/blob/main/Images/Testing-Training_Classification_Report.png)
   
 ### Summary  
 The model is very good at predicting healthy loans and decently good at predicting high-risk loans. Looking at the two classification reports for the training and test data, it looks as if model performance declined--albeit very slightly--on the test data. This is to be expected: this is how well the model is performing on data that the model hasn't seen before. If we're still getting strong precision and recall on the test dataset, this is a good indication of how well the model is likely to perform in real life.  
